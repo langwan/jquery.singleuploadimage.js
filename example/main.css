@@ -1,0 +1,22 @@
+#paper {
+	margin: 16px;
+	width: 512px;
+}
+
+#console {
+	padding: 8px;
+	border:0;
+}
+
+#uploadbox {
+	padding:2px;
+}
+
+.singleupload {
+	background: url(empty_bg.png);
+	border:1px solid #ccc;
+	text-align: center;
+	width: 92px;
+	height: 92px;
+	line-height: 92px;
+}

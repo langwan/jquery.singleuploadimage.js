@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>jquery.simple.upload single.</title>
+	<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="../source/jquery.singleupload.js"></script>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+	<div id="paper">
+		<div id="console">
+			<div id="uploadbox" onClick="singleupload_input.click();" class="singleupload"></div>
+			<input type="file" id="singleupload_input" style="display:none;" name="img" value=""/>
+		</div>
+
+		<div id="info">
+
+		</div>
+	</div>
+
+
+	<script type="text/javascript">
+		$(function() {
+			$('#uploadbox').singleupload({
+				action: 'do_upload.php', //action: 'do_upload.php'
+				inputId: 'singleupload_input',
+				onError: function(code) {
+					console.debug('error code '+res.code);
+				}
+				/* ,onSucess: function(url, data) {} */
+				/*,onProgress: function(loaded, total) {} */
+			});
+		});
+	</script>
+</body>
+</html>
