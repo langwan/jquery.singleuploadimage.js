@@ -1,7 +1,7 @@
 {
     "name": "singleuploadimage",
     "title": "Single Upload Image",
-    "description": "Simple and elegant upload a image.",
+    "description": "jQuery plugin for upload a image, simple and elegant.",
     "keywords": [
         "upload",
         "image"
