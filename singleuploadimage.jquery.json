@@ -1,0 +1,34 @@
+{
+    "name": "singleuploadimage",
+    "title": "Single Upload Image",
+    "description": "Simple and elegant upload a image.",
+    "keywords": [
+        "upload",
+        "image"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "langwan",
+        "url": "https://github.com/langwan/jquery.singleuploadimage.js/AUTHORS.txt"
+    },
+    "maintainers": [
+        {
+            "name": "Langwan Luo",
+            "email": "lagnwanluo@gmail.com",
+            "url": "https://github.com/langwan"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://en.wikipedia.org/wiki/MIT_License"
+        }
+    ],
+    "bugs": "https://github.com/langwan/jquery.singleuploadimage.js/issues",
+    "homepage": "https://github.com/langwan/jquery.singleuploadimage.js",
+    "docs": "https://github.com/langwan/jquery.singleuploadimage.js",
+    "download": "https://github.com/langwan/jquery.singleuploadimage.js",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
