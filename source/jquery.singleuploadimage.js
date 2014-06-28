@@ -22,10 +22,7 @@
         
         var settings = $.extend({
             action: '#',
-            onSuccess: function(url, data) {
-                var review = ('<img src="'+url+'" style="width:'+$this.width()+'px;height:'+$this.height()+'px;"/>');
-                $this.append(review);
-            },
+            onSuccess: function(url, data) {},
             onError: function(code){},
             OnProgress: function(loaded, total) {
                 var percent = Math.round(loaded * 100 / total);
@@ -48,6 +45,8 @@
                     settings.onError(res.code);
                     return;
                 }
+                var review = ('<img src="'+res.url+'" style="width:'+$this.width()+'px;height:'+$this.height()+'px;"/>');
+                $this.append(review);
                 settings.onSuccess(res.url, res.data);
 
             },

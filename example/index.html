@@ -8,14 +8,18 @@
 </head>
 <body>
 
-	<p class="info">
+	<div id="info">
 		please upload a image. display the image is not your upload, that is demo.
-	</p>
+	</div>
 	<div id="paper">
 		<div id="console">
 			<div id="uploadbox" onClick="singleupload_input.click();" class="singleupload"></div>
 			<input type="file" id="singleupload_input" style="display:none;" name="img" value=""/>
 		</div>
+	</div>
+
+	<div id="imageinfo">
+		<input id="return_url_text" type="text" value="" />
 	</div>
 
 
@@ -26,8 +30,10 @@
 				inputId: 'singleupload_input',
 				onError: function(code) {
 					console.debug('error code '+res.code);
+				},
+				onSuccess: function(url, data) {
+					$('#return_url_text').val(url);
 				}
-				/* ,onSucess: function(url, data) {} */
 				/*,onProgress: function(loaded, total) {} */
 			});
 		});
