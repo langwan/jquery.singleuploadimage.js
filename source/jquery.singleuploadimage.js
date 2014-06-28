@@ -1,3 +1,18 @@
+/*
+ * singleuploadimage - jQuery plugin for upload a image, simple and elegant.
+ * 
+ * Copyright (c) 2014 Langwan Luo
+ *
+ * Licensed under the MIT license
+ *
+ * http://www.opensource.org/licenses/mit-license.php
+ *
+ * Project home:
+ *     https://github.com/langwan/jquery.singleuploadimage.js
+ *
+ * version: 1.0.0
+ */
+
 (function ( $ ) {
 
     $.fn.singleupload = function(options) {
