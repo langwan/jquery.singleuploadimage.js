@@ -30,5 +30,6 @@
     "download": "https://github.com/langwan/jquery.singleuploadimage.js",
     "dependencies": {
         "jquery": ">=1.5"
-    }
+    },
+    "demo": "http://www.chengxufan.com/codes/jquery.singleuploadimage.js/example"
 }

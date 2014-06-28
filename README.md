@@ -7,6 +7,8 @@ jQuery plugin for upload a image, simple and elegant.
 
 upload a image return image url and custom data. click image button upload, display progress percent, finish display this image into image button.
 
+Demo http://www.chengxufan.com/codes/jquery.singleuploadimage.js/example
+
 #### How do I use it?
 
 1. Include [jQuery](http://jquery.com/ "jQuery") follwed by `jQuery.singleuploadimage.js`. There is also a minified script include.
@@ -51,8 +53,3 @@ $(function() {
 	});
 });
 ```
-
-#### Demo
-
-[http://www.chengxufan.com/codes/jquery.singleuploadimage.js/example]
-
