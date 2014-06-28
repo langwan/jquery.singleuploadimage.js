@@ -10,7 +10,7 @@
  * Project home:
  *     https://github.com/langwan/jquery.singleuploadimage.js
  *
- * version: 1.0.1
+ * version: 1.0.3
  */
 
 (function ( $ ) {
