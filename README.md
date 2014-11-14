@@ -15,7 +15,7 @@ Demo http://www.chengxufan.com/codes/jquery.singleuploadimage.js/example
 
 ```html
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="jQuery.jTableCheckbox.min.js"></script>
+<script src="jQuery.singleuploadimage.js"></script>
 ```
 
 2. Add `div` and `input` in your html.
