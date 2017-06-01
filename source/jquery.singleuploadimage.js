@@ -32,9 +32,13 @@
         }, options);
 
         $('#' + settings.inputId).bind('change', function() {
+            if(!$('#' + settings.inputId).get(0).files.length)
+                return;
+
             $this.css('backgroundImage', 'none');
             var fd = new FormData();
             fd.append($('#' + settings.inputId).attr('name'), $('#' + settings.inputId).get(0).files[0]);
+            $('#' + settings.inputId).val('');
 
             var xhr = new XMLHttpRequest();
             xhr.addEventListener("load", function(ev) {
