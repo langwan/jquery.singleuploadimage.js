@@ -22,6 +22,7 @@
         
         var settings = $.extend({
             action: '#',
+            onBegin: function() {},
             onSuccess: function(url, data) {},
             onError: function(code){},
             OnProgress: function(loaded, total) {
@@ -60,7 +61,9 @@
             }, false);
             
             xhr.open("POST", settings.action, true);
-            xhr.send(fd);  
+            xhr.send(fd);
+            
+            settings.onBegin();
 
         });  
        
